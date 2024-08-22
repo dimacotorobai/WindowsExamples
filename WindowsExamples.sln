@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NativeAPIProcessList", "Nat
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KernelModuleEnumarationDriver", "KernelModuleEnumarationDriver\KernelModuleEnumarationDriver.vcxproj", "{C01918ED-06ED-4B2F-BDE2-3B7B22958EE2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindowsPrivilegeDeescalation", "WindowsPrivilegeDeescalation\WindowsPrivilegeDeescalation.vcxproj", "{51E788A7-2D44-4A09-BAC4-9C247AC4AEFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM64 = Debug|ARM64
@@ -47,6 +49,18 @@ Global
 		{C01918ED-06ED-4B2F-BDE2-3B7B22958EE2}.Release|x86.ActiveCfg = Release|x64
 		{C01918ED-06ED-4B2F-BDE2-3B7B22958EE2}.Release|x86.Build.0 = Release|x64
 		{C01918ED-06ED-4B2F-BDE2-3B7B22958EE2}.Release|x86.Deploy.0 = Release|x64
+		{51E788A7-2D44-4A09-BAC4-9C247AC4AEFD}.Debug|ARM64.ActiveCfg = Debug|x64
+		{51E788A7-2D44-4A09-BAC4-9C247AC4AEFD}.Debug|ARM64.Build.0 = Debug|x64
+		{51E788A7-2D44-4A09-BAC4-9C247AC4AEFD}.Debug|x64.ActiveCfg = Debug|x64
+		{51E788A7-2D44-4A09-BAC4-9C247AC4AEFD}.Debug|x64.Build.0 = Debug|x64
+		{51E788A7-2D44-4A09-BAC4-9C247AC4AEFD}.Debug|x86.ActiveCfg = Debug|Win32
+		{51E788A7-2D44-4A09-BAC4-9C247AC4AEFD}.Debug|x86.Build.0 = Debug|Win32
+		{51E788A7-2D44-4A09-BAC4-9C247AC4AEFD}.Release|ARM64.ActiveCfg = Release|x64
+		{51E788A7-2D44-4A09-BAC4-9C247AC4AEFD}.Release|ARM64.Build.0 = Release|x64
+		{51E788A7-2D44-4A09-BAC4-9C247AC4AEFD}.Release|x64.ActiveCfg = Release|x64
+		{51E788A7-2D44-4A09-BAC4-9C247AC4AEFD}.Release|x64.Build.0 = Release|x64
+		{51E788A7-2D44-4A09-BAC4-9C247AC4AEFD}.Release|x86.ActiveCfg = Release|Win32
+		{51E788A7-2D44-4A09-BAC4-9C247AC4AEFD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
